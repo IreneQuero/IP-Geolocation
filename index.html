@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <main class="container">
+    <div>
+      <h3>¿Quieres obtener información de una IP?</h3>
+    </div>
+    <form id="form">
+      <label class="label">
+        Consulta el país, idioma, moneda y más
+        <input required id="input" type="text" placeholder="Introduce la IP">
+        <small>Por ejemplo: 187.66.247.186</small>
+      </label>
+      <button type="submit" id="submit">Buscar información</button>
+    </form>
+    <div>
+      <pre id="results"></pre>
+    </div>
+  </main>
+  <script src="js/particles.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
