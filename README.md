@@ -1,4 +1,4 @@
-# Geolocation-IP
+# IP-Geolocation
 
 Proyecto de geolocalización de IP creado con JavaScript, consumiendo una API donde te devuelve los datos de la IP introducida. Podrás consultar país, idioma, moneda y más información.
 
